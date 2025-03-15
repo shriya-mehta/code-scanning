@@ -11,6 +11,6 @@ def find_user(username):
     cursor.execute(query) 
 
 if __name__ == "__main__":
-    user_input = input("Enter a value: ")
+    user_input = input("Enter any value: ")
     run_command("echo " + user_input)
     find_user(user_input)
